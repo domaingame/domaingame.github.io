@@ -3596,7 +3596,7 @@ input, select, textarea {
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100%);
-		max-width: 100rem;
+		max-width: 103rem;
 		z-index: 2;
 	}
 
@@ -3733,7 +3733,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100%);
-		max-width: 100rem;
+		max-width: 103rem;
 		z-index: 2;
 	}
 
@@ -3926,13 +3926,13 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: rgba(255, 255, 255, .85);
+		background-color: #DFDEDE;
 		color: #909498;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100%);
-		max-width: 100rem;
+		max-width: 103rem;
 		z-index: 2;
 	}
 
