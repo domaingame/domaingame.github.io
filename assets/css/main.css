@@ -3733,7 +3733,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100%);
-		max-width: 103rem;
+		max-width: cover;
 		z-index: 2;
 	}
 
@@ -3932,7 +3932,7 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100%);
-		max-width: 103rem;
+		max-width: cover;
 		z-index: 2;
 	}
 
