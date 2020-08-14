@@ -3761,6 +3761,12 @@ input, select, textarea {
 			font-size: 2.5rem;
 		}
 
+		.poster h2 {
+			text-align: center;
+			font-size: 2.5rem;
+			color: #000000;
+		}
+
 		#main > .post {
 			padding: 4rem 4.2rem 2rem 4.2rem ;
 		}
@@ -3768,6 +3774,12 @@ input, select, textarea {
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
+
+			.post > p {
+				margin-top: -2rem;
+			}
+
+
 			#main > .post > h1{
 				font-size: 3rem;
 				line-height: 1;
@@ -4690,10 +4702,34 @@ input, select, textarea {
 	width: 90%;
 	height: auto;
 	vertical-align: middle;
+	margin: 0 0 4rem 0;
 }
+
+.poster-bottom {
+		
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 3rem 0;
+}
+
+
+.poster video {
+	width: 90%;
+	height: auto;
+	vertical-align: middle;
+}
+
+
 .img1 { flex: .75; }
 .img2 { flex: .5517578125; }
 .img3 { flex: .5576171875; }
+.img4 { flex: .4732104586369481;}
+.img5 { flex: .5625;}
+.img6 { flex: .560546875;}
+.img7 { flex: .6126629422718808;}
+.img8 { flex: .5980392156862745;}
+.img9 { flex: .5444444444444444;}
 
 .pics_in_a_row {
 	margin: 25px 0;
@@ -4713,6 +4749,13 @@ input, select, textarea {
 	  font-size: 2.5rem;
 	  color: #ffffff;
   }
+  .team p {
+	text-align: center;
+	font-size: 1rem;
+	color: #ffffff;
+	width: 80%;
+	margin: 0 auto 2rem auto;
+}
   .team img {
 	  display: block;
 	  width: 80%;
@@ -4720,27 +4763,3 @@ input, select, textarea {
 	  margin: 3rem auto;
 
   }
-
-  .more {
-	width: 100%;
-	height: auto;
-}
-
-.more > *{
-	margin: 0rem auto 3rem auto;
-}
-  .more img{
-	 width: auto; 
-	float: left;
-	 height: 622px;
-	 margin-bottom: 4rem;
-	 margin-right: 5rem;
-	 margin-left: 4rem;
-}
-
-.more h2 {
-	text-align: center;
-	font-size: 2.5rem;
-	color: #000000;
-	margin-bottom: 3rem;
-}	
