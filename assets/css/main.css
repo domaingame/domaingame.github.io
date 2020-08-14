@@ -3754,12 +3754,13 @@ input, select, textarea {
 		#main > footer {
 			text-align: center;
 		}
-		.poster img {
-			width: 29%;
-			height: auto;
-			position: relative;
-			display: inline-block;
+
+		.poster h3 {
+			margin: 2rem auto 0 auto;
+			text-align: center;
+			font-size: 2.5rem;
 		}
+
 		#main > .post {
 			padding: 4rem 4.2rem 2rem 4.2rem ;
 		}
@@ -4666,16 +4667,80 @@ input, select, textarea {
 	}
 
 	iframe {
-		margin: 0 2rem 0 6rem;
+		margin: 3rem auto;
 	}
 
 	.mainarticle {
-		display: inline-block;
-		width: 70%;
+		width: 60%;
 		height: auto;
-	}
-	.mainarticle p {
-		display: inline-block;
-		padding: 0 0 0 4rem;
-		height: auto;
-	}
+		float: right;
+		transform: translate(-5%,0);
+}
+
+.mainarticle p {
+	padding: 0 0 0 0;
+}
+
+.pics_in_a_row {
+ 	 display: flex;
+}
+
+.poster img {
+		
+	width: 90%;
+	height: auto;
+	vertical-align: middle;
+}
+.img1 { flex: .75; }
+.img2 { flex: .5517578125; }
+.img3 { flex: .5576171875; }
+
+.pics_in_a_row {
+	margin: 25px 0;
+  }
+  
+  .pics_in_a_row > div:not(:last-child) {
+	margin-right: 2%;
+  }
+  
+  .team {
+	  width: 100%;
+	  height: auto;
+	  background-color: #000000;
+  }
+  .team h2 {
+	  text-align: center;
+	  font-size: 2.5rem;
+	  color: #ffffff;
+  }
+  .team img {
+	  display: block;
+	  width: 80%;
+	  height: auto;
+	  margin: 3rem auto;
+
+  }
+
+  .more {
+	width: 100%;
+	height: auto;
+}
+
+.more > *{
+	margin: 0rem auto 3rem auto;
+}
+  .more img{
+	 width: auto; 
+	float: left;
+	 height: 622px;
+	 margin-bottom: 4rem;
+	 margin-right: 5rem;
+	 margin-left: 4rem;
+}
+
+.more h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	color: #000000;
+	margin-bottom: 3rem;
+}	
