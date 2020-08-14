@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -198,7 +198,7 @@ input, select, textarea {
 	h1 {
 		font-size: 4rem;
 		line-height: 1.1;
-		margin: 0 0 2rem 0;
+		margin: -2rem 0 2rem 0;
 	}
 
 	h2 {
@@ -2612,8 +2612,9 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 4rem 0;
+			display: inline-block;
+			position: relative;
+			margin: 4rem auto;
 			width: 100%;
 		}
 
@@ -2924,7 +2925,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: -1rem 0 3rem 0;
 			text-align: center;
 		}
 
@@ -3189,7 +3190,10 @@ input, select, textarea {
 	}
 
 /* Wrapper */
-
+	.allwrapper {
+		width: 84%;
+		margin: 0 auto;
+	}
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
@@ -3206,8 +3210,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/domain_images/hacker_promotion2 (2).jpg");
+			background-color: #000000;
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3231,7 +3234,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #000000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3258,7 +3261,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+	/*	padding: 2rem 4rem 6rem 4rem ; */
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3283,7 +3286,8 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+	 /*	min-height: 100vh; */
+		min-height: 25vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3740,7 +3744,7 @@ input, select, textarea {
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
-			margin: 0;''
+			margin: 0;
 		}
 
 			#main > *:first-child {
@@ -3750,19 +3754,28 @@ input, select, textarea {
 		#main > footer {
 			text-align: center;
 		}
-
+		.poster img {
+			width: 29%;
+			height: auto;
+			position: relative;
+			display: inline-block;
+		}
 		#main > .post {
-			padding: 4rem 8rem 2rem 8rem ;
+			padding: 4rem 4.2rem 2rem 4.2rem ;
 		}
 
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
-
+			#main > .post > h1{
+				font-size: 3rem;
+				line-height: 1;
+				margin: -1rem 0 3rem 0;
+			}
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
-				line-height: 1.1;
-				margin: 0 0 2rem 0;
+				line-height: 1;
+				margin: 0 0 1rem 0;
 			}
 
 			#main > .post.featured {
@@ -4366,7 +4379,7 @@ input, select, textarea {
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 4rem auto 4rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -4650,4 +4663,17 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	iframe {
+		margin: 0 2rem 0 6rem;
+	}
+
+	.mainarticle {
+		display: inline-block;
+		width: 70%;
+	}
+	.mainarticle p {
+		display: inline-block;
+		padding: 0 0 0 4rem;
 	}
