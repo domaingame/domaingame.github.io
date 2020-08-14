@@ -3191,7 +3191,7 @@ input, select, textarea {
 
 /* Wrapper */
 	.allwrapper {
-		width: 84%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	#wrapper {
